@@ -16,44 +16,45 @@
 </head>
 <body>
   <!-- SITE HEADER -->
-  <header class="site-header">
-    <a href="https://www.akademnashr.uz" target="_blank">
-      <!-- Akademnashr logo rasmi -->
-      <img class="site-logo" src="image/logo (1).svg" alt="site-logo" width="227" height="60">
-    </a>
 
-    <div class="site-header-actions">
-      <!-- SITE NAV -->
-      <nav>
-        <ul class="sitenav-list">
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
-        </ul>
-      </nav>
-      <a class="main-button" href="#">Ro`yxatdan o`tish</a>
+  <header class="site-header">
+    <div class="site-header-top container">
+      <a href="https://www.akademnashr.uz" target="_blank">
+        <!-- Akademnashr logo rasmi -->
+        <img class="site-logo" src="image/logo (1).svg" alt="site-logo" width="227" height="60">
+      </a>
+      <div class="site-header-actions">
+        <!-- SITE NAV -->
+        <nav>
+          <ul class="sitenav-list">
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+          </ul>
+        </nav>
+        <a class="main-button" href="#">Ro`yxatdan o`tish</a>
+      </div>
     </div>
   </header>
 
 
+  <!-- HERO -->
   <main>
-    <!-- HERO -->
     <section class="hero">
-      <div class="hero-content">
-        <hr class="site-hero-line">
-        <h2 class="hero-heading heading">Pythonda dasturlash <br> asoslari</h2>
-        <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng <br> mukammal qo‘llanma. Kitobning har bir bo‘limi <br> uchun maxsus video darslar yozilgan bo‘lib, ularga <br> kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
-        <a class="main-button" href="#">Buyurtma berish</a>
+      <div class="hero-content-wrapper container">
+        <div class="hero-content">
+          <hr class="site-hero-line">
+          <h2 class="hero-heading heading">Pythonda dasturlash <br> asoslari</h2>
+          <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng <br> mukammal qo‘llanma. Kitobning har bir bo‘limi <br> uchun maxsus video darslar yozilgan bo‘lib, ularga <br> kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+          <a class="main-button" href="#">Buyurtma berish</a>
+        </div>
+        <!-- Python bo`yicha kitob rasmi  -->
+        <img class="hero-img" src="image/python-book.jpg" alt="python kitob" width="510" height="510" srcset="image/python-book.jpg 1x, image/python-book@2x.jpg 2x">
       </div>
-
-      <!-- Python bo`yicha kitob rasmi  -->
-      <img class="hero-img" src="image/python-book.jpg" alt="python kitob" width="510" height="510" srcset="image/python-book.jpg 1x, image/python-book@2x.jpg 2x">
     </section>
-
-
     <!-- FEATURES -->
-    <section class="features">
+    <section class="features container">
       <hr class="features-line">
       <h2 class="features-heading heading">
         Nega aynan Akademnashr?
@@ -96,26 +97,30 @@
 
     <!-- SALE -->
     <section class="promo">
-      <div class="promo-content">
-        <h2 class="promo-heading heading">
-          Bolalar kitoblari uchun ajoyib aksiya!
-        </h2>
-        <div class="promo-info-wrapper">
-          <p class="promo-text">
-            Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
-            <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-          </p>
+      <div class="container">
+        <div class="promo-content-wrapper">
+          <div class="promo-content">
+            <h2 class="promo-heading heading">
+              Bolalar kitoblari uchun ajoyib aksiya!
+            </h2>
+            <div class="promo-info-wrapper">
+              <p class="promo-text">
+                Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
+                <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+              </p>
+            </div>
+            <a class="main-button" href="#">Buyurtma qilish</a>
+          </div>
+          <!-- Aksiyadagi kitoblar -->
+          <img class="promo-img" src="image/sale-img.jpg" alt="aksiyadagi kitoblar rasmi" width="440" height="440" srcset="image/sale-img.jpg 1x, image/sale-img@2x.jpg 2x">
         </div>
-        <a class="main-button" href="#">Buyurtma qilish</a>
       </div>
-
-      <!-- Aksiyadagi kitoblar -->
-      <img class="promo-img" src="image/sale-img.jpg" alt="aksiyadagi kitoblar rasmi" width="440" height="440" srcset="image/sale-img.jpg 1x, image/sale-img@2x.jpg 2x">
     </section>
   </main>
 
   <!-- SITE FOOTER -->
   <footer class="site-footer">
+  <div class="container">
     <div class="site-footer-top">
       <a href="https://www.akademnashr.uz">
         <!-- Akademnashr logo rasmi -->
@@ -133,9 +138,7 @@
         </li>
       </ul>
     </div>
-
     <hr class="site-footer-divider">
-
     <!-- LINKS -->
     <div class="site-footer-bottom">
       <ul class="site-footer-links">
@@ -155,7 +158,6 @@
           <a href="#">Kontaktlar</a>
         </li>
       </ul>
-
       <ul class="site-footer-links">
         <li>
           <a href="#">Ilmiy nashrlar</a>
@@ -179,7 +181,6 @@
           <a href="#">Bolalar uchun</a>
         </li>
       </ul>
-
       <ul class="site-footer-links">
         <li>
           <a href="#">Ko’p so’raladigan savollar</a>
@@ -191,7 +192,6 @@
           <a href="#">To’lov usullari haqida</a>
         </li>
       </ul>
-
       <ul class="site-footer-links">
         <li>
           <a href="#">Bo’sh ish o’rinlari</a>
@@ -204,6 +204,7 @@
         </li>
       </ul>
     </div>
+  </div>
   </footer>
 </body>
 </html>
